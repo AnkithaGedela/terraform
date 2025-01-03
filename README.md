@@ -27,6 +27,11 @@ terraform validate
 ```
 terraform plan
 ```
+### terraform plan -out to make sure the exact changes gets applied which are mentioned in configuration file
+```
+terraform plan -out=tfplan
+terraform apply tfplan
+
 ### Apply Changes: 
 ```
 terraform apply
